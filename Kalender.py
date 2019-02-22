@@ -74,7 +74,7 @@ def main(jahr,monat):
 #Zeilen wechseln
         if b %7==0:  
             print " "
-	print " "
+    print " "
 #Monat im Woerterbuch
 monat_dict={1:"Januar",2:"Februar",3:"Maerz",4:"April",5:"Mai",6:"Juni",7:"Juli",8:"August",9:"September",10:"Oktober",11:"November",12:"Dezember"}
 #Analyse der Fehler 
