@@ -121,7 +121,7 @@ while True:
                 else:
                     print "ungueltig,bitte nochmal\nMonat muss von 1 bis 12\nJahr muss groesser als 1899 sein"
             except:
-                print "ungueltig,bitte nochmal\nGeben Sie bitte 2 Argumente ein \nerste ist Monat \ndann Leerzeichen \nzweite ist Jahr \nund zwar sie muessen Zahlen sein"
+                print "ungueltig,bitte nochmal\nGeben Sie bitte 2 Argumente ein \nerste ist Monat \ndann Leerzeichen \nzweite ist Jahr \nund zwar sie muessen Zahlen sein\nz.B.3 2019"
         
         p(jahr,monat)
     elif option=="d":
