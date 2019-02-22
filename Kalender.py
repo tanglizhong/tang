@@ -65,17 +65,17 @@ def main(jahr,monat):
 #b=Woche (z.B.b=1,d.h.dieser Tag ist Montag)
     if b!=0:
 #  sun  mon  tue
-#12301234012340
+#12301234012340   (1234 bedeutet die Anzahl des Leerzeichens,0 bedeutet Zahl im Kalender)
         print "    "*b+" "*(b-1),
     for v in range(1,m(monat)+1):
-#ab 4-te Stelle,Bereite sind 4 zwischen den Zahlen
+#Ausgabe ab 4-te Stelle ,Bereite sind 4 zwischen den Zahlen
         print "%4d"%v,
         b=b+1
 #Zeilen wechseln
         if b %7==0:  
-            print " "
-    print " "
-#Monat in Woerterbuch
+            print " \n"
+
+#Monat im Woerterbuch
 monat_dict={1:"Januar",2:"Februar",3:"Maerz",4:"April",5:"Mai",6:"Juni",7:"Juli",8:"August",9:"September",10:"Oktober",11:"November",12:"Dezember"}
 #Analyse der Fehler 
 while True:
@@ -119,16 +119,16 @@ while True:
                 if int(monat) in (1,2,3,4,5,6,7,8,9,10,11,12) and int(jahr)>1899:
                     break
                 else:
-                    print "ungueltig,bitte nochmal.\nMonat muss von 1 bis 12.\nJahr muss groesser als 1899 sein."
+                    print "ungueltig,bitte nochmal\nMonat muss von 1 bis 12\nJahr muss groesser als 1899 sein"
             except:
-                print "ungueltig,bitte nochmal.\nGeben Sie bitte 2 Argumente ein ,\nerste ist Monat ,dann Leerzeichen , zweite ist Jahr und zwar sie muessen Zahlen sein"
-            
+                print "ungueltig,bitte nochmal\nGeben Sie bitte 2 Argumente ein \nerste ist Monat \ndann Leerzeichen \nzweite ist Jahr \nund zwar sie muessen Zahlen sein"
+        
         p(jahr,monat)
     elif option=="d":
         break
     else:
-        print "ungueltig,nochmal bitte ,Geben Sie bitte nur a,b,c oder d ein."
-    
+        print "ungueltig,nochmal bitte \nGeben Sie bitte nur a,b,c oder d ein."
+
 
 
 
