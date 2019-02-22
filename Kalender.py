@@ -10,7 +10,7 @@ Version 5
 
 Ueberblick:
 Das ist ein Programm ueber einen Kalender.
-Der anfangstag ist 01,01,1899.
+Das anfangsdatum ist 01,01,1899.
 Das eingegebene Jahr muss Zahl sein ,und zwar groesser als 1899.
 Der eingegebene Monat muss Zahl sein ,und zwar von 1 bis 12.
 Monate fuer 1,3,5,7,8,10,12 ,jeden Monat hat 31 Tage.
