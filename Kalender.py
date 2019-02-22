@@ -7,6 +7,16 @@ Fachbereich:EIT 1
 Gruppe:3
 Datum:21.02.2019
 Version 5
+
+Ueberblick:
+Das ist ein Programm ueber einen Kalender.
+Der anfangstag ist 01,01,1899.
+Das eingegebene Jahr muss Zahl sein ,und zwar groesser als 1899.
+Der eingegebene Monat muss Zahl sein ,und zwar von 1 bis 12.
+Monate fuer 1,3,5,7,8,10,12 ,jeden Monat hat 31 Tage.
+Monate fuer 4,6,9,11,jeden Monat hat 30 Tage.
+Der Monat fuer 2,wenn schaltjahr ist,dann hat 29 Tage,sonst 28 Tage.
+
 """
 #Module time
 import time as t
@@ -109,9 +119,9 @@ while True:
                 if int(monat) in (1,2,3,4,5,6,7,8,9,10,11,12) and int(jahr)>1899:
                     break
                 else:
-                    print "ungueltig,bitte nochmal.Monat muss von 1 bis 12.Jahr muss groesser als 1899 sein."
+                    print "ungueltig,bitte nochmal.\nMonat muss von 1 bis 12.\nJahr muss groesser als 1899 sein."
             except:
-                print "ungueltig,bitte nochmal.Geben Sie bitte 2 Argumente ein ,erste ist Monat ,dann Leerzeichen , zweite ist Jahr und zwar sie muessen Zahlen sein"
+                print "ungueltig,bitte nochmal.\nGeben Sie bitte 2 Argumente ein ,\nerste ist Monat ,dann Leerzeichen , zweite ist Jahr und zwar sie muessen Zahlen sein"
             
         p(jahr,monat)
     elif option=="d":
