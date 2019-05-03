@@ -45,7 +45,7 @@ def m(monat):
         return 29
     else:
        return 28
-#gesamte Tage von 01,01,1899 bis bestimmtes Jahr,bestimmtes Monat.01,01,1899 ist Sonntag
+#gesamte Tage von 01,01,1899 bis bestimmtes Jahr,bestimmten Monat.01,01,1899 ist Sonntag
 def gesamttage(jahr,monat):
     jahr=int(jahr)
     monat=int(monat)
