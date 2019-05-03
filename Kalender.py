@@ -1,8 +1,7 @@
 """
 Programmieren_I
-Autor1:Tang,Lizhong(4068443) 
-Autor2:Chen,Cheng(4068922) 
-Autor3:Song,Zhaorui(4068539)
+Autor1:Tang,Lizhong(4068443)  
+Autor2:Song,Zhaorui(4068539)
 Fachbereich:EIT 1
 Gruppe:3
 Datum:21.02.2019
