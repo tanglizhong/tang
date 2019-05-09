@@ -61,7 +61,7 @@ def gesamttage(jahr,monat):
 def main(jahr,monat): 
     x=gesamttage(jahr,monat)
     b=x%7
-#b=Woche (z.B.b=1,d.h.dieser Tag ist Montag)
+#b=Wochentag (z.B.b=1,d.h.dieser Tag ist Montag)
     if b!=0:
 #  sun  mon  tue
 #12301234012340   (1234 bedeutet die Anzahl des Leerzeichens,0 bedeutet Zahl im Kalender)
