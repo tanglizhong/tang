@@ -20,7 +20,7 @@ Der Monat fuer 2,wenn schaltjahr ist,dann hat 29 Tage,sonst 28 Tage.
 #Module time
 import time as t
 #Ausgabe des Kalenders
-def p(jahr,monat):
+def ausgabe(jahr,monat):
 #Name des Monates
     print "  ----------",monat_dict[int(monat)],jahr,"----------"
     print "  Sun  Mon  Tue  Wed  Thu  Fri  Sat"
@@ -93,7 +93,7 @@ while True:
 #bei dem Fall des existierenden Fehlers
             except:
                 print "Monat muss zahl sein"
-        p(jahr,monat)
+        ausgabe(jahr,monat)
         
     elif option=="b":
         while True:
@@ -108,7 +108,7 @@ while True:
                 print "Jahr muss ein Zahl sein"
         for i in range (1,13):
             monat=i
-            p(jahr,monat)
+            ausgabe(jahr,monat)
             t.sleep(1)
     elif option == "c":
 #Eingabe der zwei Argumente in einer Zelle
@@ -122,7 +122,7 @@ while True:
             except:
                 print "ungueltig,bitte nochmal\nGeben Sie bitte 2 Argumente ein \nerste ist Monat \ndann Leerzeichen \nzweite ist Jahr \nund zwar sie muessen Zahlen sein\nz.B.3 2019"
         
-        p(jahr,monat)
+        ausgabe(jahr,monat)
     elif option=="d":
         break
     else:
